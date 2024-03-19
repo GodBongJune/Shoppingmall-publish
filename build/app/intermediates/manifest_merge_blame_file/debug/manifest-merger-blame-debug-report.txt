@@ -1,0 +1,479 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mbaas.shoppingmall"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:flutter_naver_login] /Users/bongbong/Desktop/only_front/shoppingmall/build/flutter_naver_login/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+16-->[:flutter_naver_login] /Users/bongbong/Desktop/only_front/shoppingmall/build/flutter_naver_login/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+17
+18    <queries>
+18-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-24:15
+19        <package android:name="com.kakao.talk" />
+19-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-50
+19-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-47
+20        <package android:name="com.kakao.talk.alpha" />
+20-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-56
+20-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:11:18-53
+21        <package android:name="com.kakao.talk.sandbox" />
+21-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-58
+21-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-55
+22        <package android:name="com.kakao.onetalk" />
+22-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-53
+22-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-50
+23        <package android:name="com.locnall.KimGiSa" />
+23-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-55
+23-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-52
+24        <package android:name="com.lguplus.navi" />
+24-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-52
+24-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:15:18-49
+25
+26        <intent>
+26-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:18
+27            <action android:name="android.intent.action.VIEW" />
+27-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+27-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+28
+29            <category android:name="android.intent.category.BROWSABLE" />
+29-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+29-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+30
+31            <data android:scheme="https" />
+31-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+31-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+32        </intent>
+33        <!-- 네이버앱 : 로그인, 스킴로그인 -->
+34        <package android:name="com.nhn.android.search" /> <!-- 커스텀탭 로그인 -->
+34-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:16:9-58
+34-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:16:18-55
+35        <intent>
+35-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:18:9-20:18
+36            <action android:name="android.support.customtabs.action.CustomTabsService" />
+36-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:19:13-90
+36-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:19:21-87
+37        </intent>
+38
+39        <package android:name="com.android.chrome" />
+39-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:22:9-54
+39-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:22:18-51
+40    </queries>
+41
+42    <permission
+42-->[androidx.core:core:1.10.1] /Users/bongbong/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+43        android:name="com.mbaas.shoppingmall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.10.1] /Users/bongbong/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.10.1] /Users/bongbong/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.mbaas.shoppingmall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.10.1] /Users/bongbong/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.10.1] /Users/bongbong/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+47
+48    <application
+48-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:2:5-36:19
+49        android:name="androidx.multidex.MultiDexApplication"
+49-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:4:9-61
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.10.1] /Users/bongbong/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+51        android:debuggable="true"
+52        android:icon="@mipmap/ic_launcher"
+52-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:5:9-43
+53        android:label="shoppingmall" >
+53-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:3:9-37
+54        <activity
+54-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:6:9-26:20
+55            android:name="com.mbaas.shoppingmall.MainActivity"
+55-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:7:13-41
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:11:13-163
+57            android:exported="true"
+57-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:8:13-36
+58            android:hardwareAccelerated="true"
+58-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:12:13-47
+59            android:launchMode="singleTop"
+59-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:9:13-43
+60            android:theme="@style/LaunchTheme"
+60-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:10:13-47
+61            android:windowSoftInputMode="adjustResize" >
+61-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:13:13-55
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+69-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:18:13-21:17
+70                android:name="io.flutter.embedding.android.NormalTheme"
+70-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:19:15-70
+71                android:resource="@style/NormalTheme" />
+71-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:20:15-52
+72
+73            <intent-filter>
+73-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:22:13-25:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:23:17-68
+74-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:23:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:24:17-76
+76-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:24:27-74
+77            </intent-filter>
+78        </activity>
+79
+80        <!--
+81             Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+84-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:32:9-34:33
+85            android:name="flutterEmbedding"
+85-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:33:13-44
+86            android:value="2" />
+86-->/Users/bongbong/Desktop/only_front/shoppingmall/android/app/src/main/AndroidManifest.xml:34:13-30
+87
+88        <service
+88-->[:firebase_auth] /Users/bongbong/Desktop/only_front/shoppingmall/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+89            android:name="com.google.firebase.components.ComponentDiscoveryService"
+89-->[:firebase_auth] /Users/bongbong/Desktop/only_front/shoppingmall/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+90            android:directBootAware="true"
+90-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:68:13-37
+92            <meta-data
+92-->[:firebase_auth] /Users/bongbong/Desktop/only_front/shoppingmall/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+93                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+93-->[:firebase_auth] /Users/bongbong/Desktop/only_front/shoppingmall/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[:firebase_auth] /Users/bongbong/Desktop/only_front/shoppingmall/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+95            <meta-data
+95-->[:firebase_core] /Users/bongbong/Desktop/only_front/shoppingmall/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+96                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+96-->[:firebase_core] /Users/bongbong/Desktop/only_front/shoppingmall/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[:firebase_core] /Users/bongbong/Desktop/only_front/shoppingmall/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+99                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+99-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/5cf447b53140afab14b56a97eba55473/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+102                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+102-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/5cf447b53140afab14b56a97eba55473/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/5cf447b53140afab14b56a97eba55473/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+105                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+105-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+107        </service>
+108
+109        <provider
+109-->[:image_picker_android] /Users/bongbong/Desktop/only_front/shoppingmall/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+110            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+110-->[:image_picker_android] /Users/bongbong/Desktop/only_front/shoppingmall/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+111            android:authorities="com.mbaas.shoppingmall.flutter.image_provider"
+111-->[:image_picker_android] /Users/bongbong/Desktop/only_front/shoppingmall/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+112            android:exported="false"
+112-->[:image_picker_android] /Users/bongbong/Desktop/only_front/shoppingmall/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+113            android:grantUriPermissions="true" >
+113-->[:image_picker_android] /Users/bongbong/Desktop/only_front/shoppingmall/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+114            <meta-data
+114-->[:image_picker_android] /Users/bongbong/Desktop/only_front/shoppingmall/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+115                android:name="android.support.FILE_PROVIDER_PATHS"
+115-->[:image_picker_android] /Users/bongbong/Desktop/only_front/shoppingmall/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+116                android:resource="@xml/flutter_image_picker_file_paths" />
+116-->[:image_picker_android] /Users/bongbong/Desktop/only_front/shoppingmall/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+117        </provider>
+118
+119        <activity
+119-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-32:56
+120            android:name="com.kakao.sdk.flutter.TalkAuthCodeActivity"
+120-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-70
+121            android:configChanges="orientation|screenSize|keyboardHidden|uiMode"
+121-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-81
+122            android:exported="false"
+122-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
+123            android:launchMode="singleTask"
+123-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-44
+124            android:theme="@style/TransparentCompat" />
+124-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-53
+125        <activity
+125-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-37:56
+126            android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity"
+126-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-76
+127            android:exported="true"
+127-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-36
+128            android:launchMode="singleTask"
+128-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-44
+129            android:theme="@style/TransparentCompat" />
+129-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-53
+130        <activity
+130-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-42:56
+131            android:name="com.kakao.sdk.flutter.FollowChannelHandlerActivity"
+131-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-78
+132            android:exported="true"
+132-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-36
+133            android:launchMode="singleTask"
+133-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-44
+134            android:theme="@style/TransparentCompat" />
+134-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-53
+135        <activity
+135-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+136            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+136-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+137            android:excludeFromRecents="true"
+137-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+138            android:exported="true"
+138-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+139            android:launchMode="singleTask"
+139-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+140-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+141            <intent-filter>
+141-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+142-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+144-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+145-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+146
+147                <data
+147-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+148                    android:host="firebase.auth"
+149                    android:path="/"
+150                    android:scheme="genericidp" />
+150-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+151            </intent-filter>
+152        </activity>
+153        <activity
+153-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+154            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+154-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+155            android:excludeFromRecents="true"
+155-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+156            android:exported="true"
+156-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+157            android:launchMode="singleTask"
+157-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+158-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+159            <intent-filter>
+159-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+160                <action android:name="android.intent.action.VIEW" />
+160-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+160-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+162-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+163                <category android:name="android.intent.category.BROWSABLE" />
+163-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+163-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+164
+165                <data
+165-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+166                    android:host="firebase.auth"
+167                    android:path="/"
+168                    android:scheme="recaptcha" />
+168-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+169            </intent-filter>
+170        </activity>
+171
+172        <provider
+172-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+173            android:name="com.google.firebase.provider.FirebaseInitProvider"
+173-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+174            android:authorities="com.mbaas.shoppingmall.firebaseinitprovider"
+174-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+175            android:directBootAware="true"
+175-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+176            android:exported="false"
+176-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+177            android:initOrder="100" /> <!-- <activity -->
+177-->[com.google.firebase:firebase-common:20.4.2] /Users/bongbong/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+178        <!-- android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity" -->
+179        <!-- android:configChanges="orientation|screenSize" -->
+180        <!-- android:theme="@style/Theme.AppCompat.Light.Dialog" /> -->
+181        <activity
+181-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:32:9-35:78
+182            android:name="com.navercorp.nid.oauth.NidOAuthBridgeActivity"
+182-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:33:13-74
+183            android:configChanges="orientation|screenSize"
+183-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:34:13-59
+184            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" /> <!-- <activity -->
+184-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:35:13-75
+185        <!-- android:name="com.navercorp.nid.oauth.activity.NidOAuthWebViewActivity" -->
+186        <!-- android:configChanges="orientation|screenSize" -->
+187        <!-- android:screenOrientation="behind" -->
+188        <!-- android:label="OAuth2.0 by WebView" -->
+189        <!-- android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/> -->
+190        <activity
+190-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:44:9-63:20
+191            android:name="com.navercorp.nid.oauth.activity.NidOAuthCustomTabActivity"
+191-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:45:13-86
+192            android:configChanges="orientation|screenSize"
+192-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:46:13-59
+193            android:exported="true"
+193-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:47:13-36
+194            android:label="OAuth2.0 by Custom tabs"
+194-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:48:13-52
+195            android:launchMode="singleTask"
+195-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:49:13-44
+196            android:screenOrientation="behind"
+196-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:50:13-47
+197            android:theme="@style/Theme.AppCompat.NoActionBar" >
+197-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:51:13-63
+198            <intent-filter>
+198-->[com.navercorp.nid:oauth:5.4.0] /Users/bongbong/.gradle/caches/transforms-3/a682b80c4a7cd0c155aa4bd36e845a03/transformed/jetified-oauth-5.4.0/AndroidManifest.xml:52:13-62:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+199-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+201-->[com.google.firebase:firebase-auth:22.3.0] /Users/bongbong/.gradle/caches/transforms-3/59c3375fd9e11c827922abb91b461128/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+202-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+203                <!-- Intent URL 에서 로그인 액티비티를 실행하기 위해 설정 -->
+204                <data
+204-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+205                    android:host="authorize"
+206                    android:path="/"
+207                    android:scheme="naver3rdpartylogin" />
+207-->[:kakao_flutter_sdk_common] /Users/bongbong/Desktop/only_front/shoppingmall/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+208            </intent-filter>
+209        </activity>
+210        <activity
+210-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+211            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+211-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+212            android:excludeFromRecents="true"
+212-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+213            android:exported="false"
+213-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+214-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+215        <!--
+216            Service handling Google Sign-In user revocation. For apps that do not integrate with
+217            Google Sign-In, this service will never be started.
+218        -->
+219        <service
+219-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+220            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+220-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+221            android:exported="true"
+221-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+222            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+222-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+223            android:visibleToInstantApps="true" />
+223-->[com.google.android.gms:play-services-auth:20.7.0] /Users/bongbong/.gradle/caches/transforms-3/c11051d42c93eaa2095bf59a23069e58/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+224
+225        <activity
+225-->[com.google.android.gms:play-services-base:18.0.1] /Users/bongbong/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+226            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+226-->[com.google.android.gms:play-services-base:18.0.1] /Users/bongbong/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+227            android:exported="false"
+227-->[com.google.android.gms:play-services-base:18.0.1] /Users/bongbong/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+228            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+228-->[com.google.android.gms:play-services-base:18.0.1] /Users/bongbong/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+229
+230        <meta-data
+230-->[com.google.android.gms:play-services-basement:18.2.0] /Users/bongbong/.gradle/caches/transforms-3/48e0fa4178cc7f9d9c214495ac039b7f/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+231            android:name="com.google.android.gms.version"
+231-->[com.google.android.gms:play-services-basement:18.2.0] /Users/bongbong/.gradle/caches/transforms-3/48e0fa4178cc7f9d9c214495ac039b7f/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+232            android:value="@integer/google_play_services_version" />
+232-->[com.google.android.gms:play-services-basement:18.2.0] /Users/bongbong/.gradle/caches/transforms-3/48e0fa4178cc7f9d9c214495ac039b7f/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+233
+234        <uses-library
+234-->[androidx.window:window:1.0.0-beta04] /Users/bongbong/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+235            android:name="androidx.window.extensions"
+235-->[androidx.window:window:1.0.0-beta04] /Users/bongbong/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+236            android:required="false" />
+236-->[androidx.window:window:1.0.0-beta04] /Users/bongbong/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+237        <uses-library
+237-->[androidx.window:window:1.0.0-beta04] /Users/bongbong/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+238            android:name="androidx.window.sidecar"
+238-->[androidx.window:window:1.0.0-beta04] /Users/bongbong/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+239            android:required="false" />
+239-->[androidx.window:window:1.0.0-beta04] /Users/bongbong/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+240
+241        <provider
+241-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+242            android:name="androidx.startup.InitializationProvider"
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+243            android:authorities="com.mbaas.shoppingmall.androidx-startup"
+243-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+244            android:exported="false" >
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+245            <meta-data
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+246                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+246-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+247                android:value="androidx.startup" />
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+248        </provider>
+249
+250        <receiver
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+251            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+252            android:directBootAware="false"
+252-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+253            android:enabled="true"
+253-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+254            android:exported="true"
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+255            android:permission="android.permission.DUMP" >
+255-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+256            <intent-filter>
+256-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+257                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+258            </intent-filter>
+259            <intent-filter>
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+260                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+261            </intent-filter>
+262            <intent-filter>
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+263                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+264            </intent-filter>
+265            <intent-filter>
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+266                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bongbong/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+267            </intent-filter>
+268        </receiver>
+269    </application>
+270
+271</manifest>
